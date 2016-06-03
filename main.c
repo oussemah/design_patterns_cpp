@@ -19,5 +19,9 @@ int main(int argc, char* argv[])
 
     test_builder();
 
+    test_composite();
+
+    test_decorator();
+
     return 0;
 }
