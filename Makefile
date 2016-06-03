@@ -29,4 +29,4 @@ $(OBJ_DIR):
 	@mkdir $(OBJ_DIR)
 
 list:
-	@echo "Classes to build :"$(OBJS)
+	@echo "Classes to build :"$(patsubst Src/%.cpp,%,$(CLASSES))
